@@ -23,8 +23,8 @@ const template = `
 				body{
 				background-image: url({{.Picture}});
 				background-postion: center center;
+				background-attachment: fixed;
 				background-size: cover;
-				background-repeat: no-repeat;
 				-moz-background-size: cover;
 				-webkit-background-size: cover;
 				-o-background-size: cover;
