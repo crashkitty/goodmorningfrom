@@ -62,7 +62,7 @@ func (lm *locmap) offset() int {
 	time := time.Now().In(time.UTC).Hour()
 	offset := 8 - time
 	if offset < (-11) {
-		offset = 12 - (offset % 12)
+		offset = 12 + (offset % 12)
 	}
 	return offset
 }
