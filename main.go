@@ -1,4 +1,4 @@
-package main
+package github.com/m68kadse/goodmorningfrom
 
 import (
 	"fmt"
