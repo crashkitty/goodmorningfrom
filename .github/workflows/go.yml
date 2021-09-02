@@ -37,7 +37,7 @@ jobs:
       run: go test -v .
       
     - name: Install
-      run: go install crashc.at/goodmorningfrom
+      run: GOBIN='.' go install crashc.at/goodmorningfrom
       
     - name: Release
       uses: "marvinpinto/action-automatic-releases@latest"
